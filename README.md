@@ -88,7 +88,7 @@
 1. Elabore un informe paso a paso de la implementación del algoritmo de compresión mediante el algoritmo de Huffman.
 
 ### MARCO CONCEPTUAL
-1. Algoritmo de compresión de Huffman
+1. Algoritmo de compresión de Huffman:
 Se trata de un algoritmo que puede ser usado para compresión o encriptación de datos. Este algoritmo se basa en asignar códigos de distinta longitud de bits a cada uno de los caracteres de un fichero. 
 Si se asignan códigos más cortos a los caracteres que aparecen más a menudo se consigue una compresión del fichero.
 Esta compresión es mayor cuando la variedad de caracteres diferentes que aparecen es menor.
@@ -106,7 +106,7 @@ Fusionar todos estos  árboles en uno  único, para hacerlo se sigue el siguient
 Para asignar el nuevo código binario de cada caracter sólo hay que seguir el camino adecuado através del árbol. 
 Si se toma una rama cero, se añade un cero al código, si se toma una rama uno, se añade un uno.
 Se recodifica el fichero según los nuevos códigos.
-3. Veamos un ejemploTomemos un texto corto, por ejemplo: "ata la jaca a la estaca”
+3. Veamos un ejemplo: Tomemos un texto corto, por ejemplo "ata la jaca a la estaca”
 3.1. Contamos las veces que aparece cada caracter y hacemos una lista enlazada: ’  ’(5), a(9), c(2), e(1), j(1), l(2), s(1), t(2)
 3.2. Ordenamos por frecuencia de menor a mayor: e(1), j(1), s(1), c(2), l(2), t(2), ’  ’(5), a(9)
 3.3. Consideremos ahora que cada elemento es el nodo raíz de un árbol.
@@ -126,7 +126,8 @@ Para los laboratorios usando el lenguaje Java se recomienda usar el siguiente ID
 - $java hello
 
 ## Algoritmo de Compresión de Huffman
-Un árbol Trie, o árbol de prefijos, es una estructura de datos que almacena cadenas de manera eficiente compartiendo prefijos comunes.
+El algoritmo de Huffman es una técnica de compresión que asigna códigos binarios más cortos a los caracteres más frecuentes, 
+reduciendo así el tamaño del archivo. Es fundamental en aplicaciones de compresión como ZIP y JPEG.
 
 
 
