@@ -108,7 +108,7 @@ Fusionar todos estos  árboles en uno  único, para hacerlo se sigue el siguient
 Para asignar el nuevo código binario de cada caracter sólo hay que seguir el camino adecuado através del árbol. 
 Si se toma una rama cero, se añade un cero al código, si se toma una rama uno, se añade un uno.
 Se recodifica el fichero según los nuevos códigos.
-3 Veamos un ejemploTomemos un texto corto, por ejemplo: "ata la jaca a la estaca”
+3. Veamos un ejemploTomemos un texto corto, por ejemplo: "ata la jaca a la estaca”
 3.1. Contamos las veces que aparece cada caracter y hacemos una lista enlazada: ’  ’(5), a(9), c(2), e(1), j(1), l(2), s(1), t(2)
 3.2. Ordenamos por frecuencia de menor a mayor: e(1), j(1), s(1), c(2), l(2), t(2), ’  ’(5), a(9)
 3.3. Consideremos ahora que cada elemento es el nodo raíz de un árbol.
